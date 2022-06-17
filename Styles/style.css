@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,700;1,500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,15 +14,24 @@ body {
   /* background-image: url('../Assets/Images/RPS.jpg'); */
   /* background-repeat: no-repeat; */
   /* background-position: center center; */
-  background-size: cover;
+  /* background-size: cover; */
   background: url('../Assets/Images/RPS.jpg') no-repeat center/cover;
+  /* background-attachment: fixed; */
+  /* background: linear-gradient(45deg, black, white, pink); */
+
   height: 100vh;
-  background-attachment: fixed; */
 }
-.container {
-  width: 80%;
+h2{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+/* .container {
+  width: 50%;
   height: 500px;
-  background-color: #fff;
+  background-color: #fff; */
 }
-.Pupg Players {
+/* .box { */
+  /* width: 90%; */
+  /* height: 200px; */
+  /* background-color: #333; */
 }
