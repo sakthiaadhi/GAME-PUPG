@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  background-image: url('../Assets/Images/RPS.jpg');
-  background-repeat: no-repeat;
+  /* background-image: url('../Assets/Images/RPS.jpg'); */
+  /* background-repeat: no-repeat; */
   /* background-position: center center; */
   background-size: cover;
-  /* background: url('../Assets/Images/RPS.jpg') no-repeat center/cover;
+  background: url('../Assets/Images/RPS.jpg') no-repeat center/cover;
   height: 100vh;
   background-attachment: fixed; */
 }
