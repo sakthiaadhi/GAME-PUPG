@@ -16,16 +16,77 @@ body {
   /* background-repeat: no-repeat; */
   /* background-position: center center; */
   /* background-size: cover; */
-  background: url('../Assets/Images/RPS.jpg') no-repeat center/cover;
+  /* background: url('../Assets/Images/RPS.jpg') no-repeat center/cover; */
   /* background-attachment: fixed; */
   /* background: linear-gradient(45deg, black, white, pink); */
 
-  height: 100vh;
+  background-image: linear-gradient( 134.6deg,  rgba(201,37,107,1) 15.4%,
+         rgba(116,16,124,1) 74.7% );
+         color: rgb(22, 21, 22);
+         height: 100vh;
+} 
+
+img{
+  width: 70px;
+  height: 80px;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
-h2{
+.container{
+  min-width: 30rem;
+  width: 60%;
+  background-color: #ffffff;
+  padding: 2rem;
+  min-height: 30rem ;
+}
+
+.title.container{
+ min-height: 10rem;
+ margin-bottom: 1rem;
+ }
+  
+.main-title{
+width: 48%;
+float: left;
+}
+
+.scores{
+  width: 45%;
+  float: right;
+}
+
+.main-title .title{
+  font-size: 2rem;
+}
+.scores .score{
+  font-size: 1.26rem;
+  font-weight: 400;
+}
+
+.scores .score span{
+  font-weight: 800;
+}
+
+.weapons-container{
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.btn-weapon{
+  display: inline-block;
+  width: 60px;
+  height: 5rem;
+  border-radius: 500%;
+  margin: 0 0.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+h1{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
 }
+
 /* .container {
   width: 50%;
   height: 500px;
