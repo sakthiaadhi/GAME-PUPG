@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 
@@ -24,6 +25,7 @@ body {
          rgba(116,16,124,1) 74.7% );
          color: rgb(22, 21, 22);
          height: 100vh;
+         
 } 
 
 img{
@@ -34,7 +36,8 @@ img{
 }
 .container{
   min-width: 30rem;
-  width: 60%;
+  width: 45%;
+  margin: 5rem auto;
   background-color: #ffffff;
   padding: 2rem;
   min-height: 30rem ;
@@ -74,14 +77,16 @@ float: left;
 
 .btn-weapon{
   display: inline-block;
-  width: 60px;
-  height: 5rem;
-  border-radius: 500%;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
   margin: 0 0.4rem;
-  border: none;
-  outline: none;
+  background-color: rgba(201,37,107,1);
+  border: 3px solid #000;
+  /* outline: none; */
   cursor: pointer;
 }
+
 h1{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
